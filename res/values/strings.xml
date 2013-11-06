@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="app_name">Handle</string>
+    <string name="workspaces">Workspaces</string>
+    <string name="workspace">Workspace</string>
+    <string name="overdue_tasks">Overdue Tasks</string>
+    <string name="tasks">Tasks</string>
+    <string name="files">Files</string>
+    <string name="file">File</string>
+    <string name="people">People</string>
+    <string name="whiteboards">Whiteboards</string>
+    <string name="whiteboard">Whiteboard</string>
+    <string name="discussions">Discussions</string>
+    <string name="discussion">Discussion</string>
+    <string name="files_awaiting_approval">Files awaiting approval</string>
+    <string name="whats_new">What\'s New</string>
+    <string name="huddle_news">Huddle News</string>
+    <string name="huddle_upgrade">Huddle Upgrade</string>
+    <string name="quit">Exit</string>
+    <string name="logout">Logout</string>
+    <string name="user">Workspace User</string>
+    <string name="task">Task</string>
+    <string name="whiteboard_details">Details</string>
+    <string name="whiteboard_content">Content</string>
+    <string name="activity">Activity</string>
+    <string name="approvals">Files Awaiting Approval</string>
+    <string name="new_discussion">New Discussion</string>
+    <string name="new_post">New Post</string>
+    <string name="refresh">Refresh</string>
+    <string name="view">View</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="approval">File Approval</string>
+    <string name="file_upload">File Upload</string>
+</resources>

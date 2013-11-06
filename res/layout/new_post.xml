@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+	android:background="@android:color/white" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+	<ScrollView 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		<RelativeLayout 
+			android:padding="5dip"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" >
+			<TextView  
+				android:id="@+id/post_header" 
+			    android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/background"
+				android:background="@android:color/white" 
+				android:gravity="center"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:padding="10dip"/>
+		    <View 
+				android:id="@+id/separator" 
+				android:layout_below="@id/post_header"
+				android:layout_height="2dip" 
+				android:layout_width="fill_parent" 
+				android:background="#FF909090" />	
+			<EditText 
+				android:id="@+id/post_content" 
+				android:layout_below="@id/separator"
+				android:hint="Content"
+				android:lines="8" 
+				android:minLines="6" 
+				android:gravity="top|left" 
+				android:maxLines="10"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" />
+			<Button 
+				android:id="@+id/post_submit" 
+				android:layout_below="@id/post_content"
+				android:text="Submit" 
+				android:layout_width="150dip" 
+				android:layout_centerHorizontal="true"
+				android:layout_height="wrap_content" />
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

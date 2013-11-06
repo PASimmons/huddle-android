@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical"
+	android:background="@android:color/white" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView  
+		android:id="@+id/dashboard_layout"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textColor="@color/background"
+		android:paddingLeft="20sp"
+		android:paddingRight="20sp"
+		android:paddingTop="5sp"
+		android:paddingBottom="5sp"
+		android:text="@string/my_dashboard" />
+	<LinearLayout 
+		android:orientation="vertical"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:background="@android:color/white" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/workspaces_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_selector" 
+			android:textColor="@color/text"
+			android:text="@string/workspaces"
+			android:drawableLeft="@drawable/workspace"/>
+		<Button
+			android:id="@+id/overdue_tasks_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_selector" 
+			android:textColor="@color/text"
+			android:text="@string/overdue_tasks" 
+			android:drawableLeft="@drawable/task"/>
+		<Button
+			android:id="@+id/files_awaiting_approval_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_selector" 
+			android:textColor="@color/text"
+			android:text="@string/files_awaiting_approval" 
+			android:drawableLeft="@drawable/approval"/>
+	</LinearLayout>
+	<View 
+		android:id="@+id/spacer"
+		android:layout_height="2dip" android:layout_width="fill_parent" android:background="#FF909090" />	
+	<TextView  
+		android:id="@+id/activity_label"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textColor="@color/background"
+		android:padding="5sp"
+		android:text="@string/activity" />
+</LinearLayout>

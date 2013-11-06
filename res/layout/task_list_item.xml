@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+	<TableLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:padding="10dip"
+		android:stretchColumns="0">
+		<TableRow>
+			<TextView  
+				android:id="@+id/task_item" 
+				android:layout_height="wrap_content" 
+				android:textSize="16sp"
+				android:drawSelectorOnTop="true"
+				android:textColor="@android:color/black" 
+				android:gravity="center_vertical"
+				android:background="@drawable/list_selector"
+				android:layout_alignParentLeft="true"
+				android:drawableLeft="@drawable/task"	
+				android:drawablePadding="10dip"
+				android:layout_weight="1"/>
+			<TextView  
+				android:id="@+id/task_date" 
+				android:gravity="top"
+				android:textSize="16sp"
+				android:drawSelectorOnTop="true"
+				android:textColor="@android:color/black" 
+				android:background="@drawable/list_selector" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

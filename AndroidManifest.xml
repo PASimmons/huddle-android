@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.huddle.handle.android"
+      android:versionCode="1"
+      android:versionName="1.0"
+      android:installLocation="preferExternal">
+      
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+                android:name="HuddleApplication" android:debuggable="true">
+    
+        <activity android:name=".Dashboard"
+                  android:label="@string/app_name"
+                  android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WorkspacesActivity" 
+            android:label="@string/workspaces" 
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".FilesAwaitingApprovalActivity" 
+            android:launchMode="singleTop"
+            android:label="@string/files_awaiting_approval" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".OverdueTasksActivity" 
+            android:label="@string/overdue_tasks" 
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".LoginActivity" 
+            android:label="@string/app_name" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".SignUpActivity" 
+            android:label="@string/app_name" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".WhatsNewActivity" 
+            android:label="@string/whats_new" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".HuddleNewsActivity" 
+            android:label="@string/huddle_news" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".HuddleUpgradeActivity" 
+            android:label="@string/huddle_upgrade" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".TasksActivity" 
+            android:label="@string/tasks" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".PeopleActivity" 
+            android:label="@string/people" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".WorkspaceActivity" 
+            android:label="@string/workspace" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".UserActivity" 
+            android:label="@string/user" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".TaskTabsActivity" 
+            android:launchMode="singleTop"
+            android:label="@string/tasks" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".TaskActivity" 
+            android:label="@string/task" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".WhiteboardsActivity" 
+            android:label="@string/whiteboards" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".WhiteboardActivity" 
+            android:label="@string/whiteboard" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".DiscussionsActivity" 
+            android:label="@string/discussions" 
+            android:configChanges="keyboardHidden|orientation"/>        
+        <activity android:name=".DiscussionActivity" 
+            android:label="@string/discussion" 
+            android:configChanges="keyboardHidden|orientation"/> 
+        <activity android:name=".FilesActivity" 
+            android:label="@string/files" 
+            android:configChanges="keyboardHidden|orientation"/> 
+        <activity android:name=".FileActivity" 
+            android:label="@string/files" 
+            android:configChanges="keyboardHidden|orientation"/> 
+        <activity android:name=".FileApprovalsActivity" 
+            android:label="@string/approvals" 
+            android:configChanges="keyboardHidden|orientation"/> 
+        <activity android:name=".FileApprovalsTabsActivity" 
+            android:launchMode="singleTop"
+            android:label="@string/approvals" 
+            android:configChanges="keyboardHidden|orientation"/> 
+        <activity android:name=".NewDiscussionActivity" 
+            android:label="@string/new_discussion" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".NewPostActivity" 
+            android:label="@string/new_post" 
+            android:configChanges="keyboardHidden|orientation"/>  
+        <activity android:name=".AboutActivity" 
+            android:label="@string/about" 
+            android:configChanges="keyboardHidden|orientation"/>  
+        <activity android:name=".ApprovalActivity" 
+            android:label="@string/approval" 
+            android:configChanges="keyboardHidden|orientation"/>  
+        <activity android:name=".FileUploadActivity" 
+            android:label="@string/file_upload" 
+            android:configChanges="keyboardHidden|orientation"/>    
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest> 
